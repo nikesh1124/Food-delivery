@@ -1,10 +1,9 @@
 .header{
     height:  34vw;
     margin: 30px auto;
-    background: url('../../assets/homebg.png') no-repeat;
-    background-size:cover;
+    background: url('/header_img.png') no-repeat;
+    background-size: contain;
     position: relative;
-    border-radius: 10px;
 }
 
 .header-contents{
@@ -18,10 +17,7 @@
     left: 6vw;
     animation: fadeIn 3s;
 }
-.header h2{
-    position: absolute;
-    right: 5px;
-    
+.header-contents h2{
     font-weight: 500;
     color: white;
     font-size: max(4vw,22px);
