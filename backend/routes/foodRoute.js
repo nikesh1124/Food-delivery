@@ -7,7 +7,7 @@ const foodRouter=express.Router();
 
 // image Storage 
 const storage=multer.diskStorage({
-    destination:"uploads",
+    destination:"uploads", 
     filename:(req,file,cb)=>{
          return cb(null,`${Date.now()}${file.originalname}`)
     }
